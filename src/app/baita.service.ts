@@ -8,6 +8,7 @@ import { environment } from '../environments/environment';
   providedIn: 'root'
 })
 export class BaitaService {
+  
   // Costruiamo l'URL usando il file environment
   private apiUrl = `${environment.apiBaseUrl}/baite`;
 
