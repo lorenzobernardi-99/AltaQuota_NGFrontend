@@ -1,0 +1,10 @@
+<div class="dashboard-header">
+  <h1>AltaQuota Dashboard</h1>
+  <button (click)="logout()">Logout</button>
+</div>
+
+<div *ngIf="username">
+  <h2>Benvenuto, {{ username }}!</h2>
+</div>
+
+<p>This is your protected dashboard. Only logged-in users can see this.</p>
